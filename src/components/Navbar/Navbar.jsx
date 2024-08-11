@@ -16,7 +16,7 @@ const Navbar = () => {
 
             <nav className='nav-warpper'>
                 <div className='nav-content'>
-                    <a href="#" className='nav-logo'>Nonthaphat</a>
+                    <a href="#" className='nav-logo'>Nontapat</a>
 
                     <ul className='menu-ul'>
                         <li><a href="#" className='menu-items'>Home</a></li>

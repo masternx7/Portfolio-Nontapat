@@ -71,10 +71,7 @@ form {
     outline: none;
 }
 
-
-
-
-::placeholder {
+.mesInput::placeholder {
     color: rgb(252, 252, 255);
 }
 

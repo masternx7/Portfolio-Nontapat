@@ -202,3 +202,12 @@
     }
 
 }
+
+@media (max-width: 550px) {
+
+    .hero-content a {
+        font-size: 0.9rem;
+        transform: translateX(8.5rem);
+    }
+
+}

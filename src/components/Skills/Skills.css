@@ -1,4 +1,7 @@
 .skills-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
     margin-bottom: 10rem;
 }
 
@@ -109,6 +112,7 @@
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
+        gap: 1rem;
     }
 
     .skills-img-l>div {

@@ -1,4 +1,7 @@
 .project-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
     margin-bottom: 10rem;
 }
 
@@ -94,4 +97,13 @@
         bottom: 300px;
         color: #000;
     }
+
+}
+
+@media (max-width: 550px) {
+
+    .card-container {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+
 }
