@@ -75,7 +75,11 @@ form {
     color: rgb(252, 252, 255);
 }
 
-::placeholder {
+.nameInput::placeholder {
+    color: rgb(252, 252, 255);
+}
+
+.emailInput::placeholder {
     color: rgb(252, 252, 255);
 }
 
