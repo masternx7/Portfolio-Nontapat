@@ -75,6 +75,10 @@ form {
     color: rgb(252, 252, 255);
 }
 
+::placeholder {
+    color: rgb(252, 252, 255);
+}
+
 @media (max-width: 1300px) {
     .contact-header {
         padding: 0 1.5rem;
