@@ -1,0 +1,118 @@
+.skills-container {
+    margin-bottom: 10rem;
+}
+
+.skills-content h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skills-content p {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+
+.skills-img img {
+    width: 60px;
+    margin-top: 20px;
+}
+
+.skills-img-l img {
+    width: 60px;
+    margin-top: 20px;
+}
+
+.skills-img-l {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.skills-img-l>div {
+    transition: all 0.3s ease;
+}
+
+.skills-img-l>div:hover {
+    transform: translateY(-8px);
+}
+
+.skills-tools {
+    margin: 2rem 0;
+}
+
+
+.figma-img img {
+    width: 40px;
+}
+
+.flutter-img img {
+    width: 48px;
+}
+
+.skills-img {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.skills-img>div {
+    transition: all 0.3s ease;
+}
+
+.skills-img>div:hover {
+    transform: translateY(-8px);
+}
+
+.skills-con-lib-db {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.skills-db {
+    margin-left: 3rem;
+}
+
+
+@media (max-width: 1025px) {}
+
+@media (max-width: 768px) {
+
+    .skills-con-lib-db {
+        flex-direction: column;
+    }
+
+    .skills-lib {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .skills-db {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .skills-tools h3 {
+        text-align: center;
+    }
+
+    .skills-img-l {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .skills-img-l>div {
+        margin: 0 0.5rem;
+    }
+
+}

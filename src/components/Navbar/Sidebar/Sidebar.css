@@ -1,0 +1,67 @@
+.btn-contact-side {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px;
+    justify-content: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+    margin-left: 2rem;
+}
+
+.btn-contact-side:hover {
+    background-image: linear-gradient(144deg, #972de2, #4630d3 50%, #00a8b4);
+    border: 0;
+    outline: 0;
+}
+
+.sidebar-menu {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999 !important;
+    opacity: 0;
+    box-shadow: 0px 29px 80px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    transform: translateX(-100vw);
+}
+
+.sidebar-menu-warpper {
+    width: 60vw;
+    height: 100vh;
+    background-color: #142a46;
+    padding: 2rem;
+}
+
+.sidebar-menu.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.sidebar-menu a {
+    margin-bottom: 3rem;
+}
+
+.sidebar-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+    margin-left: -2rem;
+    margin-top: 30px;
+}
+
+@media (max-width: 769px) {
+    .sidebar-menu {
+        display: block;
+    }
+}

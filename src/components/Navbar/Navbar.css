@@ -1,0 +1,136 @@
+:root {
+    scroll-padding-top: 60px;
+}
+
+.nav-warpper {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    backdrop-filter: blur(50px);
+}
+
+
+.nav-content {
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.nav-logo {
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu-ul li {
+    list-style: none;
+}
+
+.menu-items {
+    text-decoration: none;
+    margin-left: 2rem;
+    color: #fff;
+    font-size: 1rem;
+    position: relative;
+}
+
+.menu-items::before {
+    content: " ";
+    width: 2rem;
+    height: 0.2rem;
+    background: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    position: absolute;
+    bottom: -0.6rem;
+    opacity: 0;
+    transform: translateX(-1.5rem);
+    transition: all 0.2s ease;
+}
+
+.menu-items:hover::before {
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.btn-contact {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px;
+    justify-content: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+    transition: ease 0.2s all;
+    margin-left: 2rem;
+}
+
+.btn-contact:hover {
+    background-image: linear-gradient(144deg, #972de2, #4630d3 50%, #00a8b4);
+    border: 0;
+    outline: 0;
+    transform: translateY(-3px);
+}
+
+.menu-btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: none;
+}
+
+.menu-btn:hover {
+    color: #AF40FF;
+    background: #000;
+    border: 1px solid #AF40FF;
+}
+
+
+@media (max-width: 769px) {
+    .nav-warpper {
+        padding: 1.5rem;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .btn-contact {
+        display: none;
+    }
+
+    .menu-ul {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1325px) {
+    .nav-warpper {
+        padding: 0.5rem 1.5rem;
+    }
+
+}
