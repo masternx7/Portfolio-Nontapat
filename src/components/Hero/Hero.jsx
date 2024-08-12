@@ -29,13 +29,13 @@ const Hero = () => {
 
                 <div>
                     <div className='tect-icon'>
-                        <a href="#"><i className="fa-brands fa-facebook facebook"></i></a>
+                        <a href="https://www.facebook.com/nontapatxnon" target='_blank'><i className="fa-brands fa-facebook facebook"></i></a>
                     </div>
                     <div className='tect-icon'>
-                        <a href=""><i className="fa-brands fa-instagram instagram"></i></a>
+                        <a href="https://www.instagram.com/ntpp.non?igsh=MTVkbzJtY2x0ajN1eQ%3D%3D&utm_source=qr" target='_blank'><i className="fa-brands fa-instagram instagram"></i></a>
                     </div>
                     <div className='tect-icon'>
-                        <a href=""><i className="fa-brands fa-line line"></i></a>
+                        <a href="https://line.me/ti/p/R4egOlavxP" target='_blank'><i className="fa-brands fa-line line"></i></a>
                     </div>
                     <div className='tect-icon'>
                         <a href=""><i className="fa-brands fa-x-twitter twitter"></i></a>
