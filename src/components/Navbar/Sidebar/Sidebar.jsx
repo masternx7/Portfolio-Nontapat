@@ -6,7 +6,7 @@ const Sidebar = ({ isOpen, toggleMenuSidebar }) => {
         <>
             <div className={`sidebar-menu ${isOpen ? "active" : ""}`} onClick={toggleMenuSidebar}>
                 <div className='sidebar-menu-warpper'>
-                    <a href="#" className='nav-logo'>Nonthaphat</a>
+                    <a href="#" className='nav-logo'>Nontapat</a>
                     <ul className='menu-ul-sidebar'>
                         <li><a href="#" className='menu-items'>Home</a></li>
                         <li><a href="#skills" className='menu-items'>Skills</a></li>
