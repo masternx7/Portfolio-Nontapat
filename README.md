@@ -1,45 +1,18 @@
 # 👋 Hello, I'm MasterN
 
-## 🚀 About Me
-
-I'm a passionate **frontend developer** and currently building a **Minecraft server in Thailand**, aiming to create a fun, immersive, and community-driven experience for Thai players.
-
-I specialize in developing user interfaces with performance, accessibility, and design in mind — with a touch of creativity inspired by the world of Minecraft.
+I'm currently developing a **Minecraft server for Thai players**, with a focus on custom features, gameplay experience, and community engagement.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Frontend Skills
 
-**Frontend Development:**
+- HTML, CSS / SCSS, TailwindCSS  
+- JavaScript, Next.js
 
-- HTML5, CSS3, SCSS  
-- TailwindCSS  
-- JavaScript (ES6+), Next.js
-- Laravel
-
-I enjoy combining modern web technologies with gaming environments to create seamless integrations between game worlds and web-based systems.
+I enjoy building clean, responsive interfaces and integrating web technologies with game environments.
 
 ---
 
-## 🎮 Minecraft Server Project
+Thank you for visiting my profile.
 
-- 🗺️ Focused on Thai players  
-- ⚙️ Custom plugins & gameplay mechanics  
-- 🌐 Web integration for account management and in-game services  
-- 🧩 Ongoing development of resource packs and UI/UX enhancements  
-
-This server is more than just a game — it's a community platform for creativity, collaboration, and adventure.
-
----
-
-## 📫 Contact
-
-- GitHub Issues or Discussions  
-- Discord (on request)  
-- Minecraft Server Website (coming soon)
-
----
-
-_Thank you for visiting my GitHub profile!_
-
-> “Innovation in code meets imagination in blocks.” 🧱
+> "Built with blocks. Powered by code."
