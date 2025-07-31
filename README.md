@@ -1,8 +1,45 @@
-# React + Vite
+# 👋 Hello, I'm MasterN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 About Me
 
-Currently, two official plugins are available:
+I'm a passionate **frontend developer** and currently building a **Minecraft server in Thailand**, aiming to create a fun, immersive, and community-driven experience for Thai players.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I specialize in developing user interfaces with performance, accessibility, and design in mind — with a touch of creativity inspired by the world of Minecraft.
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend Development:**
+
+- HTML5, CSS3, SCSS  
+- TailwindCSS  
+- JavaScript (ES6+), Next.js
+- Laravel
+
+I enjoy combining modern web technologies with gaming environments to create seamless integrations between game worlds and web-based systems.
+
+---
+
+## 🎮 Minecraft Server Project
+
+- 🗺️ Focused on Thai players  
+- ⚙️ Custom plugins & gameplay mechanics  
+- 🌐 Web integration for account management and in-game services  
+- 🧩 Ongoing development of resource packs and UI/UX enhancements  
+
+This server is more than just a game — it's a community platform for creativity, collaboration, and adventure.
+
+---
+
+## 📫 Contact
+
+- GitHub Issues or Discussions  
+- Discord (on request)  
+- Minecraft Server Website (coming soon)
+
+---
+
+_Thank you for visiting my GitHub profile!_
+
+> “Innovation in code meets imagination in blocks.” 🧱
